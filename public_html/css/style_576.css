@@ -1,0 +1,201 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width: 576px) {
+ /*---------------------------------------стили шапки---------------------------------------------*/
+    .header__logo {
+       background-image: var(--blanchard-logo-576);
+    }
+ /*---------------------------------------стили шапки---------------------------------------------*/
+ /*---------------------------------------стили блока Hero----------------------------------------*/
+
+    .section__hero-content {
+        max-width: 280px;
+        left: 25px
+    }
+
+    .swiper-wrapper {
+        width: 100%;
+    }
+
+    .section__hero-heading {
+        max-width: 280px;
+        margin-right: 0;
+        font-size: calc(var(--blanchard-font-size-text-large) + 8px);
+        line-height: calc(var(--blanchard-line-height-normal) + 12.49px);
+    }
+
+    .section__hero-text {
+        margin-top: 20px;
+        font-size: calc(var(--blanchard-font-size-text-small) - 2px);
+        line-height: calc(var(--blanchard-line-height-small) - 3px);
+    }
+
+    .section__hero-link {
+        width: 240px;
+        margin-top: 85px;
+        font-size: var(--blanchard-font-size-text-small);
+    }
+
+ /*---------------------------------------стили блока Hero----------------------------------------*/
+    
+    .right-block__images-list {
+        margin-left: 0;
+    }
+
+    .section__gallery {
+        padding-left: 0;
+    }
+ /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+    .section__catalog-heading {
+        flex-direction: column;
+    }
+
+    .section__catalog {
+        min-height: 2400px;
+    }
+
+    .section__catalog-chosen-artist {
+        margin-top: 130px;
+    }
+
+    .section__catalog-heading-flags {
+        justify-content: space-around;
+    }
+
+    .list-artists-active {
+        height: 430px !important;
+    }
+ /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+  /*-------------------------------------------------------стили блока События---------------------------------*/
+    .swiper-container-events {
+        max-width: 280px;   
+        height: 700px;
+    }
+
+    .section__events-container {
+        align-items: center;
+    }
+
+    .section__events-heading {
+       max-width: 280px;
+       width: 100%;
+    }
+
+    .section__events-cards-list-item:nth-child(4)>.section__events-cards-item-scene,
+    .section__events-cards-list-item:nth-child(5)>.section__events-cards-item-scene{
+        display: flex;
+    }
+
+    .section__events-cards-list-item:nth-child(4),
+    .section__events-cards-list-item:nth-child(5) {
+        height: 100%;
+        min-height: 700px;
+        opacity: 1;
+    }
+
+    .section__events-cards-list-item:nth-child(3)>.section__events-cards-item-scene {
+        display: flex;
+    }
+
+    .section__events-cards-list-item:nth-child(3) {
+        height: 100%;
+        min-height: 700px;
+        opacity: 1;
+    }
+
+   .section__events-all-btn {
+       display: none;
+   }
+
+   .mobile-condition {
+       display: none;
+   }
+   
+   .desktop-condition {
+       display: flex;
+       flex-direction: column;
+   }
+
+   .swiper-pagination-events {
+       text-align: center;
+   }
+
+   /*-------------------------------------------------------стили блока События---------------------------------*/
+   /*-------------------------------------------------------стили блока Издание---------------------------------*/
+   .section__edition-right-block {
+      padding-left: 85px;
+      justify-content: flex-start;
+    }
+
+    .edition-left__category,
+    .edition-left__list-category {
+       height: 300px;
+    }
+
+    .section__edition {
+        min-height: 1200px;
+    }
+
+    .list-edition__item-card,
+    .list-edition__group-card {
+        max-width: 400px;
+
+    }
+        
+   /*-------------------------------------------------------стили блока Издание---------------------------------*/
+    /*-------------------------------------------------------стили блока Котакты---------------------------------*/
+    .list-partners__mobile {
+        display: flex;
+    }
+
+    .list-partners__tablet {
+        display: none;
+    }
+
+    .list-partners__picture,
+    .list-partners__img {
+        max-width: 350px;
+    }
+
+    .map-mobile {
+        display: block;
+    }
+
+    .map-desktop {
+        display: none;
+    }
+
+    .section__contacts-left-block {
+        border: none;
+    }
+
+    .section__contacts-ymap-container,
+    .section__contacts-map-wrapper {
+        max-width: 576px;
+        width: 100%;
+        min-height: 320px;
+    }
+
+    .section__contacts-form-heading,
+    .section__contacts-address-heading {
+        font-size: calc(var(--blanchard-font-size-text-normal) + 2px);
+    }
+
+    .section__contacts-one-click {
+        margin-bottom: 20px;
+    }
+
+    .section__contacts-map-wrapper {
+        margin-bottom: 10px;
+    }
+
+    .section__projects-heading-text {
+        max-width: 500px;
+    }
+    /*-------------------------------------------------------стили блока Котакты---------------------------------*/
+    .list-item__partners-active-mobile {
+        opacity: 1;
+        z-index: 1000;
+    }
+}

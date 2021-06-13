@@ -1,0 +1,289 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width: 768px) {
+   body {
+     
+       height: calc(var(--blanchard-body-height) + 1524px);
+   }
+
+   .container {
+       max-width: calc(var(--blanchard-container-width) - 932px);
+   }
+
+   /*-----------------------------------------стили шапки-----------------------------------------------------*/
+
+   .header__tablet-search {
+       flex-basis: 4.5%;
+   }
+
+   .header__logo {
+       background-position-x: center;
+       
+   }
+
+   .header__tablet-search-img {
+       background-position-x: 5px;
+   }
+
+   .header__tablet-search-form-active {
+       flex-basis: 85%;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: flex-end;
+
+   }
+
+   .header__tablet-search-input-active {
+       max-width: calc(var(--blanchard-header-search-input-width) + 358px);
+       flex-basis: 85%;
+     
+   }
+
+   .header__search-close {
+        width: var(--blanchard-header-burger-close-metrics);
+        height: var(--blanchard-header-burger-close-metrics);
+        position: relative;
+        display: none;
+    }
+
+   .header__search-close::before,
+   .header__search-close::after {
+        content: ' ';
+        width: calc(var(--blanchard-header-burger-close-metrics) + 8.28px);
+        border-top: 3.73px solid var(--blanchard-text-color);
+        position: absolute;  
+        top: 37%;   
+        right: -8px;  
+    }
+
+    .header__search-close::before {
+        transform: rotate(45deg);
+    }
+
+    .header__search-close::after {
+        transform: rotate(-45deg);
+    }
+
+    /*-----------------------------------------стили шапки-----------------------------------------------------*/
+    /*-----------------------------------------стили блока Hero------------------------------------------------*/
+
+    .slide1 {
+        background-image: var(--blanchard-hero-slide1-768);
+    }
+
+    .slide2 {
+        background-image: var(--blanchard-hero-slide2-768);
+    }
+
+    .slide3 {
+        background-image: var(--blanchard-hero-slide3-768);
+    }
+
+    .section__hero-text {
+        max-width: 671px;
+        min-height: 120px;
+        margin-bottom: 74px;
+       
+    }
+
+    .section__hero-content-container {
+        margin-left: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .section__hero-heading {
+        margin-right: 10px;
+    }
+
+    .section__hero-link {
+        min-height: 59px;
+    }
+
+    /*-----------------------------------------стили блока Hero------------------------------------------------*/
+    /*-------------------------------------------------------стили блока О нас------------------------------------*/
+    .section__about-content {
+        max-width: calc(var(--blanchard-section-about-content-width) - 412px);
+        min-height: calc(var(--blanchard-section-about-content-height) + 209px);
+    }
+
+    /*-------------------------------------------------------стили блока О нас------------------------------------*/
+
+    .right-block__content,
+    .section__gallery-right-block,
+    .section__gallery-left-block,
+    .right-block__pagination,
+    .right-block__images-list,
+    .left-block__mark-mobile {
+    
+        width: calc(var(--blanchard-section-gallery-container-width) - 933px);
+    }
+
+    .right-block__picture-img,
+    .right-block__list-item {
+        width: 317px;
+        height: 280px;
+    }
+
+    .left-block__heading {
+        margin-left: -7px;
+        margin-bottom: 15px;
+    }
+
+    .left-block__content {
+        margin-top: 80px;
+    }
+
+    .left-block__filter {
+        width: 280px;
+        margin-left: -5px;
+    }
+
+    .left-block__select-heading {
+        margin-bottom: 12px;
+    }
+
+    .right-block__pagination {
+        margin-bottom: 30px;
+        margin-left: 12px;
+    }
+
+    .section__gallery {
+        min-height: 1170px;
+    }
+
+    .right-block__content {
+        padding-top: 0;
+    }
+
+    .section__gallery-left-block,
+    .left-block__content {
+        height: 350px;
+        min-height: 350px;
+    }
+
+    .left-block__mark-mobile {
+        margin-left: -5px;
+    }
+
+    .right-block__images-list {
+        margin-left: 12px;
+    }
+
+    .right-block__picture::before {
+        width: 267px;
+        height: 230px;
+    }
+
+    .right-block__list-item:not(:nth-child(2n)) {
+        margin-right: 32px;
+    }
+ /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+   .section__catalog {
+        min-height: 2212px;
+        margin-bottom: 80px;
+   }
+
+   .section__catalog-artists-info {
+       flex-direction: column-reverse;
+   }
+
+   .section__catalog-chosen-artist {
+       margin-top: 50px;
+       margin-right: 0;
+   }
+
+   .section__catalog-chosen-artist,
+   .section__catalog-image-artist {
+       max-width: 668px;
+       width: 100%;
+   }
+
+   .section__catalog-chosen-artist {
+       margin-top: 55px;
+   }
+
+   .section__catalog-image-artist {
+       margin-bottom: 30px;
+   }
+
+   .list-artists-active {
+       height: 342px !important;
+   }
+
+   .section__catalog-accordion {
+       margin-left: 0;     
+   }
+
+   .section__catalog-text {
+       margin-bottom: 10px;
+   }
+
+   .heading-flags__flag5 {
+       margin-right: 0;
+   }
+  /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+  /*-------------------------------------------------------стили блока События---------------------------------*/
+   .section__events-cards-list-item:not(:nth-child(3n)) {
+       margin-right: 0; 
+    }
+
+    .section__events-cards-list-item:not(:nth-child(2n)) {
+        margin-right: 15px; 
+    }
+
+    .scene-item__text {
+        margin-bottom: 92px;
+    }
+
+    .section__events-cards-list {
+        margin-bottom: 0;
+    }
+
+    .section__events-cards-list,
+    .section__events-cards {
+        min-height: 735px;
+    }
+
+    .section__events-cards-list-item {
+        margin-bottom: 10px;
+    }
+
+    .item-text__card2 {
+        margin-bottom: 130px;
+    }
+
+   
+  /*-------------------------------------------------------стили блока События---------------------------------*/
+  /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+
+  .list-partners__picture,
+  .list-partners__img {
+     max-width: 264px;
+  }
+
+  .section__contacts-address,
+  .section__contacts-one-click,
+  .section__contacts-wrapper-form {
+      margin-left: 50px;
+  }
+
+  .section__contacts-right-block,
+  .section__contacts-map-wrapper,
+  .section__contacts-ymap-container {
+        max-width: 300px;
+        width: 100%;
+        min-height: 700px;
+   }
+
+
+  /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+
+    .list-partners__list-item, 
+    .list-partners__group-cards, 
+    .section__projects-partners-list-wrapper, 
+    .list-partners__list {
+        max-width: 600px;
+    }
+}

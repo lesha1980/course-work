@@ -1,0 +1,102 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width: 1575px){
+ /*----------------------------------------------стили блока Gallery------------------------------------------*/
+    .right-block__content,
+    .left-block__content,
+    .section__gallery-container,
+    .section__gallery {
+        min-height: calc(var(--blanchard-section-gallery-height) - 195px);
+    }
+ 
+    .left-block__mark {
+        margin-top: 110%;
+    }
+
+    .section__gallery-left-block {
+        max-width: calc(var(--blanchard-section-gallery-container-width) - 1253px);
+        min-height: calc(var(--blanchard-section-gallery-height) - 195px);
+    }
+
+    .section__gallery-right-block {
+        min-height: calc(var(--blanchard-section-gallery-height) - 195px);
+    }
+
+    .right-block__list-item:not(:nth-child(3n)) {
+       margin-right: 15px;
+    }
+
+    .right-block__picture-img {
+        width: calc(var(--blanchard-gallery-picture-metrics) - 50px);
+        height: calc(var(--blanchard-gallery-picture-metrics) - 50px);
+    }
+
+    .right-block__images-list {
+        min-height: calc(var(--blanchard-section-gallery-height) - 295px);
+        justify-content: center;
+        align-items: center;
+    }
+
+    .left-block__filter {
+        min-height: calc(var(--blanchard-section-gallery-height) - 845px);
+    }
+
+    .right-block__pagination {
+        justify-content: center;
+        align-items: flex-end;
+    }
+
+    .right-block__picture::before {
+        width: 250px;
+        height: 250px;
+    }
+
+    .right-block__picture::after {
+        height: calc(var(--blanchard-gallery-picture-metrics) - 47px);
+    }
+
+    /*----------------------------------------------стили блока Gallery------------------------------------------*/
+    /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+    .section__catalog-image-artist {
+        min-height: 390px;
+    }
+
+    .section__events-cards-item-content {
+        min-height: 370px;
+        height: 100%;
+    }
+
+
+
+    
+    /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+    /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+     .section__contacts-form-input {
+         width: 335px;
+     }
+
+     .section__contacts-right-block,
+     .section__contacts-map-wrapper,
+     .section__contacts-ymap-container {
+        max-width: 900px;
+        width: 100%;
+        min-height: 700px;
+     }
+
+     .list-partners__picture,
+     .list-partners__img {
+        max-width: 385px;
+     }
+    /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+    .scene-item__text-item5 {
+        margin-bottom: 75px;
+    }
+
+    .list-partners__list-item, 
+    .list-partners__group-cards, 
+    .section__projects-partners-list-wrapper, 
+    .list-partners__list {
+        max-width: 1400px;
+    }
+}

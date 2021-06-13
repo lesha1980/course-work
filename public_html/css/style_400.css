@@ -1,0 +1,171 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width: 400px) {
+    .section__catalog {
+        min-height: 2550px;
+    }
+
+    .edition-left__category {
+        display: none;
+    }
+
+    .edition-left__category-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .category-list__label-checkbox-chosen {
+        max-width: 370px;
+        width: 100%;
+    }
+
+    .edition-left__chosen-category {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .category-list__box-cross {
+        left: 20px;
+    }
+
+    .edition-left__select-wrapper {
+        max-width: 370px;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        position: relative;
+    }
+
+    .edition-left__select-wrapper::before {
+        content: " ";
+        width: 370px;
+        height: 2px;
+        position: absolute;
+        top: 50%;
+        background: rgba(255, 255, 255, 0.5);
+
+    }
+
+    .section__edition-price-wrapper {
+        margin-right: 0;
+    }
+
+    .section__edition-price {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edition-left__heading-price {
+        margin-left: 45px;
+        align-self: start;
+    }
+
+    .category-list-mobile {
+        height: 0;
+        min-height: 0;
+    }
+
+    .edition__pagination {
+        display: none;
+    }
+    
+    .list-edition__tablet {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .edition-right__list-cards,
+    .edition-right__list-cards-wrapper {
+        max-width: 390px;
+        width: 100%;
+    }
+
+    .list-edition__item-card {
+        height: 300px;     
+        margin-top: 0; 
+        position: inherit;
+        opacity: 1;
+        z-index: 1000;
+    }
+
+    .list-edition__card {
+        max-width: 130px;
+        width: 100%;
+        
+        
+    }
+   
+    .list-edition__card-price,
+    .list-edition__order-btn,
+    .list-edition__title,
+    .list-edition__author {
+        font-size: calc(var(--blanchard-font-size-text-small) - 2px);
+        line-height: calc(var(--blanchard-line-height-small) - 3px);
+    }
+
+    .list-edition__card,
+    .list-edition__item-card,
+    .list-edition__group-card,
+    .edition-right__list-cards-wrapper {
+        min-height: 325px;
+    }
+
+    .list-edition__order-btn {
+        max-width: 130px;
+    }
+
+    .edition-card1 {
+        background-image: var(--blanchard-backgroundImage-edition-editio1-mobile);
+    
+    }
+    
+    .edition-card2 {
+        background-image: var(--blanchard-backgroundImage-edition-editio2-mobile);
+       
+    }
+    
+    .edition-card3{
+        background-image: var(--blanchard-backgroundImage-edition-editio3-mobile);
+      
+    }
+    
+    .edition-card4 {
+        background-image: var(--blanchard-backgroundImage-edition-editio4-mobile);
+       
+    }
+    
+    .edition-card5 {
+        background-image: var(--blanchard-backgroundImage-edition-editio5-mobile);
+    
+    }
+    
+    .edition-card6 {
+        background-image: var(--blanchard-backgroundImage-edition-editio6-mobile);
+     
+    }
+    
+    .edition-card7 {
+        background-image: var(--blanchard-backgroundImage-edition-editio7-mobile);
+    }
+
+    .list-edition__list-cards {
+        max-width: 290px;
+        justify-content: flex-start;
+    }
+    
+    .list-edition__group-card {
+        justify-content: flex-start;
+    }
+
+    .list-partners__picture,
+    .list-partners__img {
+          max-width: 194px;
+          min-height: 65px;
+    }
+
+    .list-partners__list {
+        align-items: center;
+    }
+
+}

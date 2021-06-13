@@ -1,0 +1,564 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width: 1024px) {
+
+    body {
+       
+        height: calc(var(--blanchard-body-height) - 66px);
+    }
+
+    .container {
+        max-width: calc(var(--blanchard-container-width) - 676px);
+    }
+
+/*-----------------------------------------стили шапки-----------------------------------------------------*/
+
+    .header__bottom {
+        display: none;
+    }
+
+    .header__sign-in {
+        display: none;
+    }
+
+    .header__tablet-search {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 4.5%;
+        transition: flex-basis 1000ms ease-in-out;
+    }
+
+    .header__tablet-search-img {
+        width: var(--blanchard-header-tablet-search-width);
+        height: var(--blanchard-header-tablet-search-height);
+        margin-top: 5px;
+        background-image: var(--blanchard-search-tablet);
+        background-repeat: no-repeat;
+        background-position-x: 10px;
+        flex-basis: calc(var(--blanchard-header-tablet-search-width) + 10px);
+        
+    }
+
+    .header__tablet-search-form {
+        padding-left: 0;
+        text-align: center;
+        display: flex;
+    }
+
+
+    .header__tablet-search-input {
+        width: 0;
+        margin-bottom: 5px;
+        padding-left: 0;
+        padding-right: 0;
+        border: none;
+        background: transparent;
+        border-bottom: 0 solid var(--blanchard-text-color);
+        transition-property: width, border-bottom;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
+        font-size: var(--blanchard-font-size-text-normal);
+        font-weight: var(--blanchard-font-weight-normal);
+        font-style: var(--blanchard-font-style-normal);
+        color: var(--blanchard-text-color);
+        caret-color: var(--blanchard-hover-element-color);
+    }
+
+    .header,
+    .header__container {
+        padding-right: 0;
+        padding-left: 0;
+        min-height: calc(var(--blanchard-header-height) - 62px);
+    }
+
+    .header {
+        background: var(--blanchard-black-color);
+    }
+
+    .header__main-nav {
+        display: none;
+    }
+
+    .header__burger-menu {
+        width: var(--blanchard-header-burger-menu-width);
+        height: var(--blanchard-header-burger-menu-height);
+        border-top: 3.65px solid var(--blanchard-text-color);
+        position: relative;
+        display: flex;
+        align-items: center;
+    }
+
+    .header__burger-menu-inner {
+        width: calc(var(--blanchard-header-burger-menu-width) - 8.5px);
+        height: 3.65px;
+        background: var(--blanchard-text-color);
+    }
+
+    .header__burger-menu::after {
+        content: " ";
+        width: calc(var(--blanchard-header-burger-menu-width) - 12.7px);
+        height: 3.65px;
+        position: absolute;
+        left: 0;
+        top: 100%;
+        background: var(--blanchard-text-color);
+    }
+
+    .header__logo {
+        background-image: var(--blanchard-logo-tablet);
+        background-position-x: center;
+        flex-basis: 45%;
+        
+    }
+
+    .header__logo:focus {
+        border: 2px solid var(--blanchard-focus-element-color);
+    }
+
+    .header__burger-main-nav-list,
+    .header__burger-main-nav-item {
+        display: flex;
+    }
+
+    .header__burger-main {
+        width: 0;
+        height: 0;
+        padding-left: 50px;
+        padding-top: 37px;
+        position: absolute;
+        left: 0;
+        top: 0; 
+        opacity: 0;   
+        display: flex;
+        flex-direction: column;    
+        background: var(--blanchard-black-color);
+        transition-property: opacity, width, height;
+        transition-duration: 500ms;
+        transition-timing-function: ease-in-out;
+    }
+
+    .header__burger-nav-close {
+        width: var(--blanchard-header-burger-close-metrics);
+        height: var(--blanchard-header-burger-close-metrics);
+        position: relative;
+    }
+
+    .header__burger-nav-close::before,
+    .header__burger-nav-close::after {
+        content: ' ';
+        width: calc(var(--blanchard-header-burger-close-metrics) + 8.28px);
+        border-top: 3.73px solid var(--blanchard-text-color);
+        position: absolute;  
+        top: 50%;   
+        left: -5px;  
+    }
+
+    .header__burger-nav-close::before {
+        transform: rotate(45deg);
+    }
+
+    .header__burger-nav-close::after {
+        transform: rotate(-45deg);
+    }
+
+    .header__burger-main-nav-list {
+        padding-left: 0;
+    }
+
+    .header__burger-main-nav-link {
+        font-style: var(--blanchard-font-style-normal);
+        font-weight: var(--blanchard-font-weight-bold);
+        font-size: var(--blanchard-font-size-text-large);
+        line-height: var(--blanchard-line-height-large);
+        color: var(--blanchard-text-color);
+    }
+
+    .header__burger-sign-in-link {
+        max-width: var(--blanchard-header-burger-sign-in-width);
+        min-height: var(--blanchard-header-burger-sign-in-height);
+        padding-left: 15px;
+        padding-top: calc(var(--blanchard-header-burger-sign-in-height)/3.5);
+        display: block;
+        flex-basis: 80px;
+        background-image: var(--blanchard-entrance-tablet);
+        background-repeat: no-repeat;
+        background-position-y: center;
+        background-position-x: 80px;
+        border: 2px solid var(--blanchard-border-color-burger-signin);
+        border-radius: 100px;
+        font-style: var(--blanchard-font-style-normal);
+        font-weight: var(--blanchard-font-weight-bold);
+        font-size: var(--blanchard-font-size-text-normal);
+        text-align: center;
+        color: var(--blanchard-text-color);
+    }
+
+    .header__burger-main-nav-list {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;  
+        flex-basis: 545px;
+    }
+
+    .header__burger-main-nav {
+        display: flex;
+        flex-direction: column;
+        flex-basis: 488px;
+    }
+
+    .header__burger-sign-in-link:focus {
+        background-image: var(--blanchard-entrance-tablet-active);
+    }
+
+    .header__burger-sign-in-link:active {
+        background-image: var(--blanchard-entrance-tablet-active);
+    }
+
+    .header__burger-menu:focus,
+    .header__burger-nav-close:focus,
+    .header__burger-sign-in-link:focus,
+    .header__burger-main-nav-link:focus{
+        border: 2px solid var(--blanchard-focus-element-color);
+        transition: border 250ms ease-in-out;
+        color: var(--blanchard-focus-element-color);
+    }
+
+    .header__burger-sign-in-link:active,
+    .header__burger-main-nav-link:active {
+        color: var(--blanchard-active-element-color);
+    }
+
+    .header__tablet-search-img:focus {
+        background-image: var(--blanchard-search-tablet-focus);
+        border: 2px solid var(--blanchard-focus-element-color);
+        transition: border 250ms ease-in-out;
+    }
+
+    /*-----------------------------------------стили шапки-----------------------------------------------------*/
+    /*-----------------------------------------стили блока Hero-----------------------------------------------*/
+
+    .swiper-container {
+        height: 768px;
+    }
+
+    .slide1 {
+        background-image: var(--blanchard-hero-slide1-tablet);
+    }
+
+    .slide2 {
+        background-image: var(--blanchard-hero-slide2-tablet);
+    }
+
+    .slide3 {
+        background-image: var(--blanchard-hero-slide3-tablet);
+    }
+
+    .section__hero-content {
+        max-width: 690px;
+        top: 213px;
+        left: 44px;
+    }
+
+    .section__hero-heading {
+        max-width: 567px;
+        margin-top: 0;
+    }
+
+    .section__hero-content-container {
+        padding-top: 0;
+    }
+
+    .section__hero-text {
+        max-width: 680px;
+        min-height: 90px;
+        margin-top: 10px;
+        letter-spacing: 0.9px;
+        margin-bottom: 103px;
+    }
+
+    /*-----------------------------------------стили блока Hero-----------------------------------------------*/
+    /*-------------------------------------------------------стили блока О нас------------------------------------*/
+    
+    .section__about-content {
+        max-width: calc(var(--blanchard-section-about-content-width) - 143px);
+        min-height: calc(var(--blanchard-section-about-content-height) + 113px);
+    }
+
+    /*----------------------------------------------------стили блока Gallery-----------------------------------*/
+
+    .images-list1 {
+        display: none;
+    }
+
+    .images-list2 {
+        display: flex;
+    }
+
+    .section__gallery-right-block,
+    .section__gallery-left-block,
+    .right-block__content,
+    .left-block__content,
+    .section__gallery-container,
+    .section__gallery {
+        min-height: calc(var(--blanchard-section-gallery-height) - 240px);
+    }
+    
+   
+    .right-block__picture-img {
+        width: 270px;
+        height: 270px;
+    }
+
+    .right-block__images-list {
+        min-height: calc(var(--blanchard-section-gallery-height) - 375px);
+        align-items: flex-start;
+        justify-content: flex-end;
+    }
+
+    .right-block__content {
+        max-width: 640px;
+        padding-top: 30px;
+        margin-top: 53px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .right-block__list-item:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+
+    .right-block__list-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+
+    .right-block__list-item {
+        width: 280px;
+        height: 280px;
+    }
+
+    .left-block__mark {
+        margin-top: 100%;
+    }
+
+    .left-block__content {
+        max-width: 350px;
+        margin-top: 85px;
+        justify-content: flex-start;
+    }
+
+    .section__gallery-left-block {
+        max-width: calc(var(--blanchard-section-gallery-container-width) - 1323px);
+    }
+
+    .section__gallery-right-block {
+        max-width: 660px;
+    }
+
+    .right-block__pagination {
+        width: 550px;
+        min-height: 20px;
+        padding-left: 0;
+        margin-bottom: 25px;
+        justify-content: flex-start;
+    }
+
+    .right-block__picture::before {
+        width: 230px;
+        height: 230px;
+    }
+
+    .right-block__picture::after {
+        height: 280px;
+    }
+
+     /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+
+     .section__catalog {
+        margin-bottom: 180px;
+     }
+
+     .section__catalog-chosen-artist,
+     .section__catalog-image-artist {
+         max-width: 437px;
+         width: 100%;
+     }
+
+     .list-artists-active {
+         height: 430px !important;
+     }
+     
+     .section__catalog-text-artist-heading {
+         margin-top: 0;
+     }
+     .section__catalog-image-artist {
+         margin-bottom: 15px;
+     }
+      /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+     
+      /*-------------------------------------------------------стили блока События---------------------------------*/
+    .section__events-cards-list-item {
+        max-width: 290px;
+        width: 100%;
+    }
+
+    .section__events-cards-list-item:not(:nth-child(3n)) {
+        margin-right: 15px;
+    }
+
+    .section__events-cards-item-scene,
+    .section__events-cards-list-item {
+        min-height: 685px;
+        height: 100%;
+    }
+
+    .section__events-cards-item-content {
+        height: 465px;
+    }
+
+    .section__events-heading {
+        margin-bottom: 13px;
+    }
+
+    .scene-item1 {
+        background-image: var(--blanchard-backgroundImage-events-event1-tablet);
+    }
+
+    .scene-item2 {
+        background-image: var(--blanchard-backgroundImage-events-event2-tablet);
+    }
+
+    .scene-item3 {
+        background-image: var(--blanchard-backgroundImage-events-event3-tablet);
+    }
+
+    .scene-item4 {
+        background-image: var(--blanchard-backgroundImage-events-event4-tablet);
+    }
+
+    .scene-item5 {
+        background-image: var(--blanchard-backgroundImage-events-event5-tablet);
+    }
+
+    .item-text__card2,
+    .item-text__card3,
+    .item-text__card1 {
+        margin-bottom: 60px;
+    }
+
+    .section__events-cards-item-scene {
+        padding-left: 32px;
+    }
+
+    .scene-item__heading {
+        max-width: 221px;
+        width: 100%;
+    }
+
+    .section__events-cards-list {
+        margin-bottom: 35px;
+    }
+
+    .section__events-all-btn {
+        font-size: var(--blanchard-font-size-text-normal);
+        line-height: var(--blanchard-line-height-bold);
+    }
+
+    .section__events-cards-list-item {
+        margin-bottom: 0;
+    }
+
+    .scene-item__text-item4 {
+        margin-bottom: 85px;
+    }
+
+    /*-------------------------------------------------------стили блока События---------------------------------*/
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+    .edition-card1 {
+        background-image: var(--blanchard-backgroundImage-edition-editio1-tablet);
+       
+    }
+    
+    .edition-card2 {
+        background-image: var(--blanchard-backgroundImage-edition-editio2-tablet);
+       
+    }
+    
+    .edition-card3{
+        background-image: var(--blanchard-backgroundImage-edition-editio3-tablet);
+    
+    }
+    
+    .edition-card4 {
+        background-image: var(--blanchard-backgroundImage-edition-editio4-tablet);
+     
+    }
+    
+    .edition-card5 {
+        background-image: var(--blanchard-backgroundImage-edition-editio5-tablet);
+     
+    }
+    
+    .edition-card6 {
+        background-image: var(--blanchard-backgroundImage-edition-editio6-tablet);
+       
+    }
+    
+    .edition-card7 {
+        background-image: var(--blanchard-backgroundImage-edition-editio7-tablet);
+      
+    }
+
+    .list-edition__card {
+        max-width: 290px;
+    }
+
+    .list-edition__item-card,
+    .list-edition__group-card {
+        max-width: 570px;
+    }
+
+    .edition__pagination {
+        max-width: 570px;
+    }
+
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+    /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+     .section__projects-heading-text {
+         max-width: 850px;
+     }
+
+     .list-partners__tablet {
+         display: flex;
+        
+     }
+
+     .list-partners__group-cards {
+         justify-content: center;
+     }
+
+     .list-partners__desktop {
+         display: none;
+     }
+
+     .list-partners__picture,
+     .list-partners__img {
+        max-width: 384px;
+     }
+
+     .section__contacts-right-block,
+     .section__contacts-map-wrapper,
+     .section__contacts-ymap-container {
+        max-width: 537px;
+        width: 100%;
+        min-height: 700px;
+     }
+    /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+    
+    .list-item__partners-active-tablet {
+        opacity: 1;
+        z-index: 1000;
+    }
+
+}

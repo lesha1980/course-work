@@ -1,0 +1,19 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media(max-width: 725px) {
+
+   .section__hero-content {
+       max-width: 590px;
+       width: 100%;
+       left: 15px;
+   }
+
+  .section__contacts-right-block,
+  .section__contacts-map-wrapper,
+  .section__contacts-ymap-container {
+        max-width: 270px;
+        width: 100%;
+        min-height: 700px;
+   }
+}

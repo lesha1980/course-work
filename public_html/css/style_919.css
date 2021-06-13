@@ -1,0 +1,89 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media(max-width: 919px) {
+    .scene-item1 {
+        background-image: var(--blanchard-backgroundImage-events-event1-768);
+    }
+
+    .scene-item2 {
+        background-image: var(--blanchard-backgroundImage-events-event2-768);
+    }
+
+    .scene-item3 {
+        background-image: var(--blanchard-backgroundImage-events-event3-768);
+    }
+
+    .scene-item4 {
+        background-image: var(--blanchard-backgroundImage-events-event4-768);
+    }
+
+    .scene-item5 {
+        background-image: var(--blanchard-backgroundImage-events-event5-768);
+    }
+
+    .section__events-cards-list-item {
+        max-width: 317px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .section__events-cards-list-item:not(:nth-child(2n)) {
+        margin-right: 27px;
+    }
+
+    .section__events-cards-list-item:nth-child(2n) {
+        margin-right: 0;
+    }
+
+    .item-text__card1 {
+        margin-bottom: 63px;
+    }
+
+    .item-text__card2 {
+        margin-bottom: 120px;
+    }
+
+    .section__events-cards-list-item:nth-child(3) {
+        height: 0;
+        min-height: 0;
+        opacity: 0;
+        transition-property: min-height opacity height;
+        transition-duration: 700ms;
+        transition-timing-function: ease-in-out;
+    }
+
+    .section__events-cards-list-item:nth-child(3)>.section__events-cards-item-scene {
+        display: none;
+    }
+
+    /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+     
+    .section__contacts-right-block,
+    .section__contacts-map-wrapper,
+    .section__contacts-ymap-container {
+       max-width: 370px;
+       width: 100%;
+       min-height: 700px;
+    }
+
+    .section__projects-heading-text {
+        max-width: 700px;
+    }
+
+    .list-partners__picture,
+    .list-partners__img {
+       max-width: 325px;
+    }
+
+
+
+    /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+
+    .list-partners__list-item, 
+    .list-partners__group-cards, 
+    .section__projects-partners-list-wrapper, 
+    .list-partners__list {
+        max-width: 700px;
+    }
+}

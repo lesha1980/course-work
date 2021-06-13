@@ -1,0 +1,191 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width:1300px){
+
+   .header__sign-in-link,
+   .header__art-nav-dropdown-link,
+   .header__art-nav-default-text,
+   .header__main-nav-link {
+       font-size: calc(var(--blanchard-font-size-text-normal) - 2px);
+   }
+
+   .header__main-nav {
+       margin-right: 20px;  
+       flex-basis: 65%;   
+   }
+
+   .header__logo {
+       flex-basis: 18%;
+   }
+
+   .header__main-nav-item:not(:last-child) {
+       margin-right: calc(var(--blanchard-margin-right-headerlist) - 50px);
+   }
+
+   .header__main-nav-list {
+       justify-content: center;
+   }
+
+   /*-------------------------------------------стили блока Gallery--------------------------------------*/
+
+   .right-block__content,
+    .left-block__content,
+    .section__gallery-container,
+    .section__gallery {
+        min-height: calc(var(--blanchard-section-gallery-height) - 695px);
+    }
+
+    .section__gallery-left-block {
+        max-width: calc(var(--blanchard-section-gallery-container-width) - 1253px);
+        min-height: calc(var(--blanchard-section-gallery-height) - 695px);
+    }
+
+    .section__gallery-right-block {
+        min-height: calc(var(--blanchard-section-gallery-height) - 695px);
+    }
+
+    .right-block__images-list {
+        min-height: calc(var(--blanchard-section-gallery-height) - 645px);
+        max-width: 940px;
+        width: 100%;
+    }
+
+    .left-block__mark {
+        margin-top: 80%;
+    }
+
+    .left-block__content {
+        margin-top: 10px;
+    }
+
+    .right-block__pagination {
+        align-items: flex-start;
+    }
+
+
+   .section__gallery-left-block {
+    max-width: calc(var(--blanchard-section-gallery-container-width) - 1353px);
+   }
+
+   .right-block__picture-img {
+    width: calc(var(--blanchard-gallery-picture-metrics) - 119px);
+    height: calc(var(--blanchard-gallery-picture-metrics) - 119px);
+   }
+
+   .right-block__list-item {
+       height: 250px;
+       margin-top: 0;
+   }
+
+   .right-block__content {
+       padding-top: 40px;
+   }
+
+   .right-block__picture::before {
+       width: 190px;
+       height: 190px;
+   }
+
+   .right-block__picture::after {
+       height: calc(var(--blanchard-gallery-picture-metrics) - 105px);
+   }
+
+
+   /*-------------------------------------------стили блока Gallery--------------------------------------*/
+   /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+   .section__catalog-image-artist {
+       min-height: 290px;
+   }
+
+   .list-artists-active {
+       height: 450px !important;
+   }
+
+  
+   /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+   
+   .section__events-cards-list-item {
+       max-width: 320px;
+       width: 100%;
+   }
+
+   .section__events-cards-item-scene,
+   .section__events-cards-list-item {
+       min-height: 800px;
+       height: 100%;
+   }
+
+   .section__events-cards-list-item {
+       margin-bottom: 20px;
+   }
+
+   .section__events-cards-item-content {
+       height: 470px;
+   }
+
+   .item-text__card1 {
+       margin-bottom: 85px;
+   }
+
+   .scene-item__text-item4 {
+       margin-bottom: 150px;
+   }
+
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+
+      .list-edition__desktop {
+          display: none;
+      }
+
+      .list-edition__tablet {
+          display: flex;
+      }
+
+      .list-edition__group-card,
+      .list-edition__item-card {
+          max-width: 680px;
+          width: 100%;
+      }
+
+      .list-edition__card {
+          margin-right: 30px;
+      }
+
+      .edition__pagination {
+          justify-content: flex-start;
+          padding-left: 140px;
+      }
+
+      .list-edition__item-card-active-tablet {
+          opacity: 1;
+      }
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+    /*-------------------------------------------------------стили блока Котакты---------------------------------*/
+
+    .list-partners__picture,
+     .list-partners__img {
+        max-width: 290px;
+     }
+
+     .list-partners__picture:not(:nth-child(3)){
+        margin-right: 5px;
+     }
+
+     .section__contacts-right-block,
+     .section__contacts-map-wrapper,
+     .section__contacts-ymap-container {
+        max-width: 650px;
+        width: 100%;
+        min-height: 700px;
+     }
+
+     /*-------------------------------------------------------стили блока Котакты---------------------------------*/
+
+    .list-partners__list-item, 
+    .list-partners__group-cards, 
+    .section__projects-partners-list-wrapper, 
+    .list-partners__list {
+        max-width: 919px;
+    }
+}

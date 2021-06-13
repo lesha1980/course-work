@@ -1,0 +1,42 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media (max-width: 450px) {
+    .section__edition-right-block {
+        padding-left: 30px;
+    }
+
+    .list-edition__item-card {
+        max-width: 300px;
+    }
+
+    .category-list__item {
+        max-width: 190px;
+        width: 100%;
+    }
+
+    .section__projects-heading-text {
+        max-width: 300px;
+    }
+
+    .list-partners__picture,
+    .list-partners__img {
+          max-width: 290px;
+      }
+      
+    .footer__container {
+        padding-top: 20px;
+        flex-direction: column-reverse;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .footer__socials {
+        margin-bottom: 20px;
+    }
+
+    .footer__logo {
+        background-image: url("/course-work/img/footer_logo_mobile.svg");
+        background-position: center center;
+    }
+}

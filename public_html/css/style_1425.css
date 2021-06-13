@@ -1,0 +1,82 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media(max-width: 1425px) {
+    .section__catalog-image-artist {
+        min-height: 340px;
+    }
+
+    .section__events-cards-list-item {
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .section__events-cards-item-content {
+        height: 370px;
+    }
+
+    .scene-item__text {
+        margin-bottom: 50px;
+    }
+
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+     .list-edition__card {
+         max-width: 300px;
+         width: 100%;
+         margin-right: 20px;
+     }
+
+     .list-edition__group-card {
+         justify-content: center;
+     }
+
+     .list-edition__list-cards {
+         display: flex;
+         justify-content: center;
+     }
+
+     .section__edition-right-block,
+     .list-edition__list-cards,
+     .list-edition__group-card,
+     .list-edition__item-card {
+         max-width: 950px;
+     }
+
+     .section__edition-left-block {
+         max-width: 350px;
+         width: 100%;
+        
+     }
+
+
+     .edition-right__list-cards-wrapper {
+         display: flex;
+         justify-content: center;
+     }
+
+     .list-edition__tablet {
+         display: none;
+     }
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+    /*-------------------------------------------------------стили блока Котакты---------------------------------*/
+    .list-partners__picture:not(:nth-child(3)){
+         margin-right: 20px;
+    }
+
+    /*-------------------------------------------------------стили блока Котакты---------------------------------*/
+
+    .scene-item__text-item5 {
+        margin-bottom: 20px;
+    }
+
+    .scene-item__text-item4 {
+        margin-bottom: 80px;
+    }
+
+    .list-partners__list-item, 
+    .list-partners__group-cards, 
+    .section__projects-partners-list-wrapper, 
+    .list-partners__list {
+        max-width: 1200px;
+    }
+}

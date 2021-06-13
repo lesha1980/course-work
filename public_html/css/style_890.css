@@ -1,0 +1,113 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media(max-width: 890px) {
+    .section__gallery-container,
+    .section__gallery {
+        min-height: calc(var(--blanchard-section-gallery-height) + 167px);
+    }
+
+    .section__gallery-left-block,
+    .section__gallery-right-block {
+        max-width: 100%;
+    }
+
+    .section__gallery-right-block {
+        min-height: calc(var(--blanchard-section-gallery-height) - 200px);
+    }
+
+    .section__gallery {
+        padding-left: 10px;
+        background-image: var(--blanchard-gallery-background-img-mobile);
+        background-size: cover;
+    }
+
+    .section__gallery-container {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .left-block__mark-desktop {
+        display: none;
+    }
+
+    .left-block__mark-mobile {
+        margin-top: 0;
+        display: block;
+    }
+
+    .section__gallery-left-block,
+    .left-block__content {
+        width: calc(var(--blanchard-section-gallery-container-width) - 1050px);
+        min-height: calc(var(--blanchard-section-gallery-height) - 700px);
+        flex-basis: calc(var(--blanchard-section-gallery-height) - 700px);
+    }
+
+    .left-block__content {
+        margin-top: 40px;
+        
+    }
+
+    .left-block__mark {
+        max-width: 640px;
+        margin-left: 40px;
+    }
+
+    .right-block__content {
+        margin-top: 0;
+        
+    }
+
+    .section__catalog-image-artist {
+       min-height: 260px;
+    }
+
+    .list-artists__item-link {
+        font-size: calc(var(--blanchard-font-size-text-small) - 2px);
+    }
+
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+       .section__edition-container {
+           flex-direction: column;
+       }
+
+     
+
+       .section__edition-left-block {
+           max-width: 884px;
+           width: 100%;
+           min-height: 250px;
+       }
+
+       .edition-left__category {
+           height: 150px;
+       }
+
+       .edition-left__list-category {
+           height: 150px;
+           display: flex;
+           flex-direction: column;
+           align-self: center;
+           flex-wrap: wrap;
+       }
+
+       .section__edition-right-block {
+           margin-top: 40px;
+       }
+
+       .section__edition-left-block {
+           margin-top: 60px;
+       }
+
+       .section__edition {
+           background-image: var(--blanchard-edition-background-image-desktop-tablet);
+           background-size: cover;
+       }
+
+       .list-edition__info-edition {
+           margin-bottom: 20px;
+       }
+    /*-------------------------------------------------------стили блока Издание---------------------------------*/
+
+}

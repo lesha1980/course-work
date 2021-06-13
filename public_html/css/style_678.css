@@ -1,0 +1,152 @@
+@import url("/course-work/css/var.css");
+@import url("/course-work/css/font.css");
+
+@media(max-width: 678px){
+   
+    .right-block__images-list {
+        max-width: 300px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .right-block__list-item:not(:nth-child(2n)) {
+        margin-right: 0;
+    }
+    .right-block__list-item {
+        max-width: 290px;
+        margin-bottom: 10px;
+    }
+
+    .right-block__pagination {
+        width: 160px;
+    }
+
+    .left-block__mark {
+        max-width: 320px;
+    }
+
+    .right-block__content {
+        max-width: calc(var(--blanchard-section-gallery-container-width) - 1300px);
+    }
+
+    .left-block__content {
+        max-width: calc(var(--blanchard-section-gallery-container-width) - 1286px);
+        width: 100%;
+        align-items: center;
+      
+    }
+
+    .left-block__filter {
+        max-width: 290px;
+        width: 100%;
+    }
+
+    .section__gallery-left-block {
+        display: flex;
+        justify-content: center;
+    }
+
+    .right-block {
+       display: flex;
+       justify-content: center;
+    }
+
+    .right-block__picture::before {
+        width: 240px;
+    }
+
+    /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+     .section__catalog {
+        min-height: 2300px;
+     }
+
+     .heading-flags__flag {
+         margin-right: 20px;
+     }
+    /*-------------------------------------------------------стили блока Каталог---------------------------------*/
+    /*-------------------------------------------------------стили блока События---------------------------------*/
+    .section__events-cards-list-item {
+        max-width: 270px;
+        width: 100%;
+    }
+
+    .section__events-cards-list-item:not(:nth-child(2n)) {
+        margin-right: 10px; 
+    }
+
+    .item-text__card2 {
+        margin-bottom: 115px;
+    }
+
+    .scene-item__text-item5 {
+        margin-bottom: 65px;
+    }
+    /*-------------------------------------------------------стили блока События---------------------------------*/
+     /*-------------------------------------------------------стили блока Издание---------------------------------*/
+      .section__edition-right-block {
+          padding-left: 135px;
+          justify-content: flex-start;
+      }
+
+      .list-edition__item-card {
+          max-width: 470px;
+          margin-top: 50px;
+      }
+
+      .section__edition {
+          min-height: 1050px;
+      }
+
+      .edition__pagination {
+          height: 30px;
+          align-self: flex-start;
+      }
+
+      .list-edition__card {
+          max-width: 200px;
+          margin-right: 10px;
+      }
+
+      .category-list__text {
+          font-size: calc(var(--blanchard-font-size-text-normal) - 4px);
+      }
+      /*-------------------------------------------------------стили блока Издание---------------------------------*/
+      /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+      .section__contacts-address,
+      .section__contacts-one-click,
+      .section__contacts-wrapper-form {
+          margin-left: 10px;
+      }
+
+      .section__contacts-one-click-heading,
+      .section__contacts-form-heading,
+      .section__contacts-address-heading {
+          font-size: var(--blanchard-font-size-text-normal);
+      }
+
+      .section__contacts-form-input {
+          width: 280px;
+      }
+
+      .section__contacts-street {
+          font-size: calc(var(--blanchard-font-size-text-normal) - 4px);
+      }
+
+      .section__projects-heading-text {
+          max-width: 550px;
+      }
+
+      .list-partners__picture,
+      .list-partners__img {
+          max-width: 240px;
+      }
+      /*-------------------------------------------------------стили блока Контакты---------------------------------*/
+
+      .list-partners__list-item, 
+      .list-partners__group-cards, 
+      .section__projects-partners-list-wrapper, 
+      .list-partners__list {
+          max-width: 520px;
+      }
+      
+}
