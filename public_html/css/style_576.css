@@ -1,5 +1,5 @@
-@import url("/course-work/css/var.css");
-@import url("/course-work/css/font.css");
+@import url("var.css");
+@import url("font.css");
 
 @media (max-width: 576px) {
  /*---------------------------------------стили шапки---------------------------------------------*/
