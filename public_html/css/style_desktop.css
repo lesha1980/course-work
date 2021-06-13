@@ -1,5 +1,5 @@
-@import url("/course-work/css/var.css");
-@import url("/course-work/css/font.css");
+@import url("var.css");
+@import url("font.css");
 
 * {
     box-sizing: border-box;
@@ -2358,11 +2358,11 @@ input[type="number"] {
 
 .section__contacts-one-click-whatsup {
     margin-right: 20px;
-    background-image: url("/course-work/img/Whatsapp-Icon.svg");
+    background-image: url("/img/Whatsapp-Icon.svg");
 }
 
 .section__contacts-one-click-telegram {
-    background-image: url("/course-work/img/Telegram_2019_Logo.svg");
+    background-image: url("/img/Telegram_2019_Logo.svg");
 }
 
 .section__contacts-one-click-messangers {
@@ -2450,7 +2450,7 @@ footer {
     max-width: 173px;
     width: 100%;
     min-height: 39.9px;
-    background-image: url("/course-work/img/footer_logo.svg");
+    background-image: url("/img/footer_logo.svg");
     background-repeat: no-repeat;
 }
 
@@ -2484,15 +2484,15 @@ footer {
 }
 
 .footer__socials-vk {
-    background-image: url("/course-work/img/vk.svg");
+    background-image: url("/img/vk.svg");
 }
 
 .footer__socials-instagram {
-    background-image: url("/course-work/img/instagram.svg");
+    background-image: url("/img/instagram.svg");
 }
 
 .footer__socials-facebook {
-    background-image: url("/course-work/img/fb.svg");
+    background-image: url("/img/fb.svg");
 }
 
 .footer__container {
