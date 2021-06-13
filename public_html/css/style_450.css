@@ -1,5 +1,5 @@
-@import url("/course-work/css/var.css");
-@import url("/course-work/css/font.css");
+@import url("var.css");
+@import url("font.css");
 
 @media (max-width: 450px) {
     .section__edition-right-block {
@@ -36,7 +36,7 @@
     }
 
     .footer__logo {
-        background-image: url("/course-work/img/footer_logo_mobile.svg");
+        background-image: url("/img/footer_logo_mobile.svg");
         background-position: center center;
     }
 }
