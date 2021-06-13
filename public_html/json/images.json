@@ -1,0 +1,182 @@
+[
+   {
+     "desktop": "img/abstract1.png",
+     "tablet": "img/abstract1_tablet.png",
+     "res768": "img/abstract1_768.png",
+     "mobile": "img/abstract1_mobile.png"
+   },
+   {
+    "desktop": "img/abstract2.png",
+    "tablet": "img/abstract2_tablet.png",
+    "res768": "img/abstract2_768.png",
+    "mobile": "img/abstract2_mobile.png"
+   },
+   {
+    "desktop": "img/abstract3.png",
+    "tablet": "img/abstract3_tablet.png",
+    "res768": "img/abstract3_768.png",
+    "mobile": "img/abstract3_mobile.png"
+   },
+   {
+    "desktop": "img/abstract4.png",
+    "tablet": "img/abstract4_tablet.png",
+    "res768": "img/abstract4_768.png",
+    "mobile": "img/abstract4_mobile.png"
+   },
+   {
+    "desktop": "img/abstract5.png",
+    "tablet": "img/abstract5_tablet.png",
+    "res768": "img/abstract5_768.png",
+    "mobile": "img/abstract5_mobile.png"
+   },
+   {
+    "desktop": "img/abstract6.png",
+    "tablet": "img/abstract6_tablet.png",
+    "res768": "img/abstract6_768.png",
+    "mobile": "img/abstract6_mobile.png"
+   },
+   {
+    "desktop": "img/abstract7.png",
+    "tablet": "img/abstract7_tablet.png",
+    "res768": "img/abstract7_768.png",
+    "mobile": "img/abstract7_mobile.png"
+   },
+   {
+    "desktop": "img/abstract8.png",
+    "tablet": "img/abstract8_tablet.png",
+    "res768": "img/abstract8_768.png",
+    "mobile": "img/abstract8_mobile.png"
+   },
+   {
+    "desktop": "img/abstract9.png",
+    "tablet": "img/abstract9_tablet.png",
+    "res768": "img/abstract9_768.png",
+    "mobile": "img/abstract9_mobile.png"
+   },
+   {
+    "desktop": "img/abstract10.png",
+    "tablet": "img/abstract10_tablet.png",
+    "res768": "img/abstract10_768.png",
+    "mobile": "img/abstract10_mobile.png"
+   },
+   {
+    "desktop": "img/abstract11.png",
+    "tablet": "img/abstract11_tablet.png",
+    "res768": "img/abstract11_768.png",
+    "mobile": "img/abstract11_mobile.png"
+   },
+   {
+    "desktop": "img/abstract12.png",
+    "tablet": "img/abstract12_tablet.png",
+    "res768": "img/abstract12_768.png",
+    "mobile": "img/abstract12_mobile.png"
+   },
+   {
+    "desktop": "img/abstract13.png",
+    "tablet": "img/abstract13_tablet.png",
+    "res768": "img/abstract13_768.png",
+    "mobile": "img/abstract13_mobile.png"
+   },
+   {
+    "desktop": "img/abstract14.png",
+    "tablet": "img/abstract14_tablet.png",
+    "res768": "img/abstract14_768.png",
+    "mobile": "img/abstract14_mobile.png"
+   },
+   {
+    "desktop": "img/abstract15.png",
+    "tablet": "img/abstract15_tablet.png",
+    "res768": "img/abstract15_768.png",
+    "mobile": "img/abstract15_mobile.png"
+   },
+   {
+    "desktop": "img/abstract16.png",
+    "tablet": "img/abstract16_tablet.png",
+    "res768": "img/abstract16_768.png",
+    "mobile": "img/abstract16_mobile.png"
+   },
+   {
+    "desktop": "img/abstract17.png",
+    "tablet": "img/abstract17_tablet.png",
+    "res768": "img/abstract17_768.png",
+    "mobile": "img/abstract17_mobile.png"
+   },
+   {
+    "desktop": "img/abstract18.png",
+    "tablet": "img/abstract18_tablet.png",
+    "res768": "img/abstract18_768.png",
+    "mobile": "img/abstract18_mobile.png"
+   },
+   {
+    "desktop": "img/picture19.png",
+    "tablet": "img/picture19_tablet.png",
+    "res768": "img/picture19_768.png",
+    "mobile": "img/picture19_mobile.png"
+   },
+   {
+    "desktop": "img/picture20.png",
+    "tablet": "img/picture20_tablet.png",
+    "res768": "img/picture20_768.png",
+    "mobile": "img/picture20_mobile.png"
+   },
+   {
+    "desktop": "img/picture21.png",
+    "tablet": "img/picture21_tablet.png",
+    "res768": "img/picture21_768.png",
+    "mobile": "img/picture21_mobile.png"
+   },
+   {
+    "desktop": "img/picture22.png",
+    "tablet": "img/picture22_tablet.png",
+    "res768": "img/picture22_768.png",
+    "mobile": "img/picture22_mobile.png"
+   },
+   {
+    "desktop": "img/picture23.png",
+    "tablet": "img/picture23_tablet.png",
+    "res768": "img/picture23_768.png",
+    "mobile": "img/picture23_mobile.png"
+   },
+   {
+    "desktop": "img/picture24.png",
+    "tablet": "img/picture24_tablet.png",
+    "res768": "img/picture24_768.png",
+    "mobile": "img/picture24_mobile.png"
+   },
+   {
+    "desktop": "img/picture25.png",
+    "tablet": "img/picture25_tablet.png",
+    "res768": "img/picture25_768.png",
+    "mobile": "img/picture25_mobile.png"
+   },
+   {
+    "desktop": "img/picture26.png",
+    "tablet": "img/picture26_tablet.png",
+    "res768": "img/picture26_768.png",
+    "mobile": "img/picture26_mobile.png"
+   },
+   {
+    "desktop": "img/picture27.png",
+    "tablet": "img/picture27_tablet.png",
+    "res768": "img/picture27_768.png",
+    "mobile": "img/picture27_mobile.png"
+   },
+   {
+    "desktop": "img/picture28.png",
+    "tablet": "img/picture28_tablet.png",
+    "res768": "img/picture28_768.png",
+    "mobile": "img/picture28_mobile.png"
+   },
+   {
+    "desktop": "img/picture29.png",
+    "tablet": "img/picture29_tablet.png",
+    "res768": "img/picture29_768.png",
+    "mobile": "img/picture29_mobile.png"
+   },
+   {
+    "desktop": "img/picture30.png",
+    "tablet": "img/picture30_tablet.png",
+    "res768": "img/picture30_768.png",
+    "mobile": "img/picture30_mobile.png"
+   }
+]

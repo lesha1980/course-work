@@ -1,0 +1,134 @@
+[
+    {
+      "rus": {
+       "name": "Доменико Гирландайо",
+       "date": "2 июня 1448 — 11 января 1494",
+       "text": "Один из ведущих флорентийских художников Кватроченто, основатель художественной династии, которую продолжили его брат Давид и сын Ридольфо. Глава художественной мастерской, где юный Микеланджело в течение года овладевал профессиональными навыками. Автор фресковых циклов, в которых выпукло, со всевозможными подробностями показана домашняя жизнь библейских персонажей (в их роли выступают знатные граждане Флоренции в костюмах того времени).",
+       "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+       "dt": {
+        "name": "Domenico Ghirlandaio",
+        "date": "2 Juni 1448 - 11 Januar 1494",
+        "text": "Einer der führenden Florentiner Maler Quattrocento, Begründer der Künstlerdynastie, die von seinem Bruder David und seinem Sohn Ridolfo fortgeführt wurde. Leiter der Kunstwerkstatt, in der der junge Michelangelo ein Jahr lang berufliche Fähigkeiten erlernte. Er ist Autor von Freskenzyklen, in denen das häusliche Leben biblischer Gestalten mit allerlei Details anschaulich dargestellt wird (in ihrer Rolle sind die adligen Bürger von Florenz in damaligen Kostümen).",
+        "img": "/course-work/img/girlandaiyo.png",
+        "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+        "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+       "fr": {
+         "name": "Domenico Ghirlandaio",
+         "date": "2 juin 1448 - 11 janvier 1494",
+         "text": "L'un des principaux peintres florentins Quattrocento, fondateur de la dynastie artistique, qui a été poursuivie par son frère David et son fils Ridolfo. Chef de l'atelier d'art, où le jeune Michel-Ange a maîtrisé les compétences professionnelles pendant un an. Il est l'auteur de cycles de fresques, dans lesquels la vie familiale des personnages bibliques est représentée de manière vivante, avec toutes sortes de détails (dans leur rôle se trouvent les nobles citoyens de Florence en costumes de l'époque).",
+         "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+       },
+       "it": {
+         "name": "Domenico Ghirlandaio",
+         "date": "2 giugno 1448 - 11 gennaio 1494",
+         "text": "Uno dei maggiori pittori fiorentini del Quattrocento, capostipite della dinastia artistica, proseguita dal fratello David e dal figlio Ridolfo. Responsabile del laboratorio d'arte, dove il giovane Michelangelo ha perfezionato le abilità professionali per un anno. È autore di cicli di affreschi, in cui la vita domestica dei personaggi biblici è mostrata vividamente, con ogni sorta di dettagli (nel loro ruolo sono i nobili cittadini di Firenze in costumi dell'epoca).",
+         "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+       },
+       "dut": {
+         "name":"Domenico Ghirlandaio",
+         "date": "2 juni 1448 - 11 januari 1494",
+         "text": "Een van de toonaangevende Florentijnse schilders Quattrocento, grondlegger van de artistieke dynastie, die werd voortgezet door zijn broer David en zoon Ridolfo. Hoofd van het kunstatelier, waar de jonge Michelangelo een jaar lang professionele vaardigheden onder de knie heeft. Hij is de auteur van frescocycli, waarin het huiselijk leven van bijbelse personages levendig wordt weergegeven, met allerlei details (in hun rol zijn de adellijke burgers van Florence in kostuums van die tijd).",
+         "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+        },
+
+       "bind-number": "1"
+
+    },
+    {
+      "rus":{
+        "name": "Бенедетто ди Биндо",
+        "date": "1380-е - 1417",
+        "text": "Бенедетто ди Биндо остался в истории искусства как сиенский художник, так сказать, «второго ряда», несмотря на то, что за свою короткую жизнь он выполнил ряд весьма престижных заказов, включая работы в Сиенском соборе (работы в главном соборе республики второстепенным художникам не поручались). Обучение он прошёл у Таддео ди Бартоло, крупного сиенского мастера поздней готики, в боттеге которого Бенедетто трудился вместе с Грегорио ди Чекко.",
+        "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "dt":{
+         "name":"Benedetto di Bindo",
+         "date":"1380er - 1417",
+         "text":"Benedetto di Bindo blieb in der Kunstgeschichte als Sienaer Künstler gewissermaßen der 'zweiten Reihe' in der Kunstgeschichte, obwohl er in seinem kurzen Leben eine Reihe von sehr prestigeträchtigen Aufträgen ausführte, darunter Werke im Dom von Siena ( Werke in der Hauptkathedrale der Republik wurden nicht kleineren Künstlern anvertraut). Er studierte bei Taddeo di Bartolo, einem großen Sienesischen Meister der Spätgotik, in dessen Bottega Benedetto mit Gregorio di Cecco zusammenarbeitete.",
+         "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "fr":{
+         "name":"Benedetto di Bindo",
+         "date": "1380 - 1417",
+         "text": "Benedetto di Bindo est resté dans l'histoire de l'art en tant qu'artiste siennois, pour ainsi dire, de la 'seconde rangée', malgré le fait qu'au cours de sa courte vie, il a effectué un certain nombre de commandes très prestigieuses, y compris des œuvres dans la cathédrale de Sienne ( les travaux de la cathédrale principale de la république n'étaient pas confiés à des artistes mineurs). Il a étudié avec Taddeo di Bartolo, un grand maître siennois du gothique tardif, dans la bottega duquel Benedetto a travaillé avec Gregorio di Cecco.",
+         "img": "/course-work/img/girlandaiyo.png",
+         "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+         "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+        },
+      "it":{
+          "name":"Benedetto di Bindo",
+          "date":"1380 - 1417",
+          "text": "Benedetto di Bindo è rimasto nella storia dell'arte come artista senese, per così dire, di 'seconda fila', nonostante nella sua breve vita abbia eseguito una serie di commesse molto prestigiose, tra cui opere nel Duomo di Siena ( opere nella cattedrale principale della repubblica non furono affidate ad artisti minori). Studiò con Taddeo di Bartolo, uno dei maggiori maestri senesi del tardo gotico, nella cui bottega Benedetto lavorò insieme a Gregorio di Cecco.",
+          "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+        },
+      "dut":{
+          "name":"Benedetto di Bindo",
+          "date":"1380 - 1417",
+          "text":"Benedetto di Bindo bleef in de kunstgeschiedenis als een Siena-kunstenaar, om zo te zeggen, van de 'tweede rij', ondanks het feit dat hij tijdens zijn korte leven een aantal zeer prestigieuze opdrachten uitvoerde, waaronder werken in de kathedraal van Siena ( werken in de belangrijkste kathedraal van de republiek werden niet toevertrouwd aan kleine kunstenaars). Hij studeerde bij Taddeo di Bartolo, een belangrijke Sienese meester van de laatgotiek, in wiens bottega Benedetto samenwerkte met Gregorio di Cecco.",
+          "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "bind-number": "2"
+    },
+    {
+      "rus":{
+        "name": "Бергоньоне Амброджо",
+        "date": "1453 — 1523",
+        "text": "Прозвище говорит о его тяготении к бургундской школе, по манере ему близок Винченцо Фоппа. Испытал влияние Леонардо да Винчи. Наиболее известен работами 1486—1494 в монастырской обители картезианцев Чертоза ди Павия. Позднее работал в Милане в базилике Сант-Эусторджо и церкви Сан-Сатиро, после 1497 — в Лоди, в 1512 — в Бергамо, незадолго до смерти — снова в Милане, в базилике Сан-Симпличано.",
+        "img": "/course-work/img/girlandaiyo.png",
+        "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+        "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "dt":{
+        "name":"Bergognone Ambrogio",
+        "date":"1453 — 1523",
+        "text":"Der Spitzname spricht von seiner Neigung zur burgundischen Schule, in der Art, wie er Vincenzo Foppa nahe steht. Beeinflusst von Leonardo da Vinci. Er ist vor allem für seine Werke in den Jahren 1486-1494 im Kartäuserkloster Certosa di Pavia bekannt. Später arbeitete er in Mailand in der Basilika Sant'Eustorgio und der Kirche San Satiro, nach 1497 - in Lodi, 1512 - in Bergamo, kurz vor seinem Tod - wieder in Mailand, in der Basilika San Simplicano.",
+        "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "fr":{
+        "name":"Bergognone Ambrogio",
+        "date":"1453 — 1523",
+        "text":"Le surnom parle de sa gravitation vers l'école bourguignonne, à la manière dont il est proche de Vincenzo Foppa. Influencé par Léonard de Vinci. Il est surtout connu pour ses œuvres en 1486-1494 dans le monastère des Chartreux, Certosa di Pavia. Plus tard, il a travaillé à Milan dans la basilique de Sant'Eustorgio et l'église de San Satiro, après 1497 - à Lodi, en 1512 - à Bergame, peu de temps avant sa mort - à nouveau à Milan, dans la basilique de San Simplicano.",
+        "img": "/course-work/img/girlandaiyo.png",
+        "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+        "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "it":{
+        "name":"Bergognone Ambrogio",
+        "date":"1453 — 1523",
+        "text":"Il soprannome parla della sua gravitazione verso la scuola borgognona, nel modo in cui è vicino a Vincenzo Foppa. Influenzato da Leonardo da Vinci. È noto soprattutto per le sue opere nel 1486-1494 nel Monastero dei Certosini, Certosa di Pavia. Successivamente lavorò a Milano nella Basilica di Sant'Eustorgio e nella Chiesa di San Satiro, dopo il 1497 - a Lodi, nel 1512 - a Bergamo, poco prima della sua morte - di nuovo a Milano, nella Basilica di San Simplicano.",
+        "img": "/course-work/img/girlandaiyo.png",
+       "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+       "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "dut":{
+        "name":"Bergognone Ambrogio",
+        "date":"1453 — 1523",
+        "text":"De bijnaam spreekt van zijn aantrekkingskracht op de Bourgondische school, op de manier waarop hij dicht bij Vincenzo Foppa staat. Beïnvloed door Leonardo da Vinci. Hij is vooral bekend om zijn werken in 1486-1494 in het klooster van de kartuizers, Certosa di Pavia. Later werkte hij in Milaan in de basiliek van Sant'Eustorgio en de kerk van San Satiro, na 1497 - in Lodi, in 1512 - in Bergamo, kort voor zijn dood - opnieuw in Milaan, in de basiliek van San Simplicano.",
+        "img": "/course-work/img/girlandaiyo.png",
+        "srcset": "/course-work/img/girlandaiyo.png 1920w, /course-work/img/girlandaiyo_1024.png 1024w, /course-work/img/girlandaiyo_768.png 768w, /course-work/img/girlandaiyo_mobile.png 320w", 
+        "sizes": "(max-width: 1920px) 750px, (max-width: 1024px) 437px, (max-width: 768px) 668px, (max-width: 320px) 290px"
+      },
+      "bind-number": "3"
+
+    }
+]
